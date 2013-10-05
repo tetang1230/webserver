@@ -44,3 +44,8 @@ If you run gcc under Linux, just type:
 Otherwise, compile and link all the *.c files into a single executable
 in your usual manner.
 
+主要更改 resource.c 中static char server_root[1000] = "/home/chester/html";
+然后添加些html文件测试
+
+端口更改文件在webserv.c中,当前默认是8080
+
